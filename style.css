@@ -150,6 +150,38 @@ a.cta.secondary {
 .card a { color: var(--ink); text-decoration: none; font-family: var(--serif); font-size: 18px; }
 .card p { margin: 8px 0 0; color: var(--muted); font-size: 14px; }
 
+.fn-series {
+  font-family: var(--sans);
+  font-style: italic;
+  color: var(--muted);
+  font-size: 15px;
+  margin: 0 0 4px;
+}
+
+.fn-issue {
+  font-family: var(--sans);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-size: 12px;
+  color: var(--muted);
+  margin: 0 0 20px;
+}
+
+.related-framework {
+  margin: 40px 0;
+  padding: 18px 20px;
+  border: 1px solid var(--hair);
+  border-radius: 4px;
+  background: #fafafa;
+}
+.related-framework h2 { margin: 0 0 10px; font-size: 18px; }
+.related-framework p { margin: 6px 0; font-family: var(--sans); font-size: 15px; }
+
+.fn-related-list li { margin-bottom: 16px; }
+.fn-related-list li p { margin: 4px 0 0; color: var(--muted); font-size: 15px; }
+
+.fn-index-item .fn-issue { margin-bottom: 8px; }
+
 footer.site {
   max-width: 720px;
   margin: 0 auto;
